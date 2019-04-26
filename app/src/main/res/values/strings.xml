@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ESSTHS</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_notif">Notification</string>
+    <string name="nav_op">Operation</string>
+    <string name="nav_logout">Logout</string>
+
+    <string-array name="test">
+        <item>Examen</item>
+        <item>DS1</item>
+        <item>DS2</item>
+        <item>DS3</item>
+        <item>Test</item>
+        <item>TP</item>
+
+    </string-array>
+    <string-array name="cal">
+        <item>DS</item>
+        <item>Examen</item>
+
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

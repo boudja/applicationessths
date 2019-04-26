@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.essths.pc.applicationessths.documentmanager">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/email" />
+    <!-- android:layout_centreHorizontal="true"-->
+
+    <com.nex3z.notificationbadge.NotificationBadge
+     android:id="@+id/badge"
+     android:layout_toRightOf="@id/icon"
+     android:layout_alignTop="@id/icon"
+     android:layout_marginLeft="49dp"
+     android:layout_marginTop="-8dp"
+    android:layout_width="28dp"
+    android:layout_height="28dp"
+    app:badgeBackground="@drawable/badge"
+    app:maxTextLength="2"></com.nex3z.notificationbadge.NotificationBadge>
+
+<ListView
+    android:id="@+id/lvdoc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+</ListView>
+
+</LinearLayout>

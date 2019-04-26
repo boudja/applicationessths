@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.essths.pc.applicationessths.calendrierexamens">
+
+
+ <RadioGroup
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="50dp"
+     android:layout_marginRight="50dp"
+     android:layout_marginTop="50dp"
+     android:id="@+id/radioGroup">
+
+  <RadioButton
+      android:id="@+id/radioButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="semestre1" />
+
+  <RadioButton
+      android:id="@+id/radioButton2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="semestre2" />
+ </RadioGroup>
+
+ <Spinner
+     android:id="@+id/sptest"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true"
+     android:layout_below="@+id/radioGroup"
+     android:layout_marginLeft="50dp"
+     android:layout_marginRight="50dp"
+     android:layout_marginTop="114dp" />
+
+ <Button
+     android:id="@+id/res"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/sptest"
+     android:layout_centerHorizontal="true"
+     android:layout_marginLeft="50dp"
+     android:layout_marginRight="50dp"
+     android:layout_marginTop="124dp"
+     android:background="@drawable/boutonconn"
+     android:text="Valider"
+     android:textColor="#ffffff" />
+</RelativeLayout>
